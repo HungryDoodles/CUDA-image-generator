@@ -8,12 +8,12 @@ Draws small boxes (128 by 128, if I remember correctly) and projects them onto c
 More like TXAA, but at larger scales and unnecessarily high precision.
 
 For demonstrative purposes the executable has already been built and can be located in Release folder (_2.exe it is).
-X - cycle between modes (1st mode is proof of work and can should be glitchy waveform, 2nd and 3rd are broken, 4th is Mandelbulb).
-WASD - disgusting way of BIOS input to control camera.
-Hold LMB - control camera.
-Hold RMD - control 2-axis parameter of current mode.
-'<' and '>' - decrease and increase number of iterations (affects all modes).
-N and M - tonemapping; becomes quite peculiar going below 0.
+-X - cycle between modes (1st mode is proof of work and can should be glitchy waveform, 2nd and 3rd are broken, 4th is Mandelbulb).
+-WASD - disgusting way of BIOS input to control camera.
+-Hold LMB - control camera.
+-Hold RMD - control 2-axis parameter of current mode.
+-'<' and '>' - decrease and increase number of iterations (affects all modes).
+-N and M - tonemapping; becomes quite peculiar going below 0.
 
 IMPORTANT: When the 4th mode is activated the image should become brown-ish there will be one tiny pixel in the middle. To start seeing the image you need to press '>' a few times to increase number of iterations to something realistic and move the mouse to the right while holding RMB, which will increase circular parameter of the fractal.
 Then you're free to explore.
